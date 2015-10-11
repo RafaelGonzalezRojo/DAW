@@ -12,7 +12,7 @@ public class C03ejercicio9 {
 			
 			System.out.print("Introduce altura: ");
 			double altura = Double.parseDouble(s.nextLine());
-			double volumen = 0.333333 * Math.PI * Math.pow(radio,2) * altura;
+			double volumen = (1.0/3.0) * Math.PI * Math.pow(radio,2) * altura;
 																	//double para  castear la salida
 			System.out.printf(" el resultado del volumen es : %.2f  \n" , (double)(volumen));
 			

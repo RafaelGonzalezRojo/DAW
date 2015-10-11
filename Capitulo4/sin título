@@ -1,0 +1,40 @@
+public class C04ejercicio1 {
+	
+	public static void main(String[] args) {
+			Scanner s = new Scanner(System.in);
+			System.out.print("Introduce radio : ");
+			double radio = Double.parseDouble(s.nextLine());
+			
+			int opcion = Integer.parseInt(System.console().readLine());
+
+			switch (opcion) {
+			case 1:
+			System.out.print("\nIntroduzca el lado del cuadrado en cm: ");
+			lado = Double.parseDouble(System.console().readLine());
+			System.out.println("\nEl área del cuadrado es " + (lado * lado) + " cm2");
+			break;
+			case 2:
+			System.out.print("\nIntroduzca la base del rectángulo en cm: ");
+			base = Double.parseDouble(System.console().readLine());
+			System.out.print("Introduzca la altura del rectángulo en cm: ");
+			altura = Double.parseDouble(System.console().readLine());
+			System.out.println("El área del rectángulo es " + (base * altura) + " cm2");
+			break;Sentencia condicional ( if y switch )
+			case 3:
+			System.out.print("\nIntroduzca la base del triángulo en cm: ");
+			base = Double.parseDouble(System.console().readLine());
+			System.out.print("Introduzca la altura del triángulo en cm: ");
+			altura = Double.parseDouble(System.console().readLine());
+			System.out.println("El área del triángulo es " + ((base * altura) / 2) + " cm2");
+			break;
+			default:
+			System.out.print("\nLo siento, la opción elegida no es correcta.");
+			}
+			}
+			}
+			
+			
+			}
+			
+			
+		}	
