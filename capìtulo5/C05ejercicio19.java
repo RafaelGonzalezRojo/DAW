@@ -18,16 +18,16 @@ public class C05ejercicio19 {
 						altura = Integer.parseInt(s.nextLine());
 						int cont2=0;
 						int espacio=0;
-						int dibujo =0;
-						for(int cont=1 ; cont<=altura ; cont++){
+						int dibujolinea =0;
+						for(int planta=0 ; planta<=altura -1 ; planta++){
 						
 							
-							for(espacio=altura; espacio>=cont -1 ; espacio--){
+							for(espacio=altura; espacio>=planta; espacio--){
 							
 									System.out.print(" ");
 							}
 							
-							for(dibujo=0 ; dibujo<=(cont -1) * 2 ; dibujo++){
+							for(dibujolinea=0 ; dibujolinea<=planta * 2 ; dibujolinea++){
 							
 									System.out.print("*");
 							}
