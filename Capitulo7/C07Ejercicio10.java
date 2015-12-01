@@ -21,7 +21,7 @@ int random=0;
 			
 		}	
 			
-		System.out.print("array original: "); 
+		System.out.print("array original: \t"); 
 		
 		for (int cont=0; cont<num.length; cont++){ 		
 				
@@ -53,7 +53,7 @@ int random=0;
 			
 		}	
 		
-		System.out.print("\n array modificado: "); 
+		System.out.print("\narray modificado: \t"); 
 		
 		for (int cont=0; cont<aux.length; cont++){ 
 				

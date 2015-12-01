@@ -11,7 +11,7 @@ public class C04ejercicio10 {
 			Scanner s = new Scanner(System.in);
 			System.out.print("Introduce un mes : ");
 			
-			String opcion = (s.nextLine()).toLowerCase();
+			String mes = (s.nextLine()).toLowerCase();
 			
 			System.out.print("Introduce un dia : ");
 			
@@ -19,7 +19,7 @@ public class C04ejercicio10 {
 			
 			if(dia <= 31){
 
-			switch (opcion) {
+			switch (mes) {
 			case "enero":
 				if(dia <= 19){
 						
