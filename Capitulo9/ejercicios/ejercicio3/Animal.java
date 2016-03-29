@@ -59,10 +59,10 @@ public abstract class Animal {
     
     if(energia1>energia2){
       
-      System.out.println("el ganador es:" + this.getClass().getName());
+      System.out.println("el ganador es:" + this.getClass().getName() + "\n\n");
     }else{
       
-      System.out.println("el ganador es:" + contrincante.getClass().getName());
+      System.out.println("el ganador es:" + contrincante.getClass().getName()+ "\n\n");
     }    
     
     

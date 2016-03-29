@@ -1,6 +1,5 @@
 public class Canario extends Ave{
 		private String raza;
-    public int energia=100;
     //contructores
 		public Canario (Sexo s, String r) {
 			super(s);	
@@ -31,13 +30,13 @@ public class Canario extends Ave{
 			+ "\n*************************\n";
 		}
 		/**
-		* Hace que el gato maulle.
+		* Hace que el gato canta.
 		*/
 		public void canta() {
 			System.out.println(" pio poiiiioooo pi pi pi");
 		}
 		/**
-		* Hace que el gato ronronee
+		* Hace que el canario vuelta
 		*/
     //@Overrider
 		public void vuela() {

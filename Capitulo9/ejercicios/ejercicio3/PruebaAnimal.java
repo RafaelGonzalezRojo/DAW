@@ -24,6 +24,9 @@ public static void main(String[] args) {
   System.out.println(pingu);
   
   pingu.peleacon(kuki);
+  guancho.peleacon(pluto);
+  pluto.peleacon(pio);
+  
   pingu.vuela();
   pio.vuela();
   

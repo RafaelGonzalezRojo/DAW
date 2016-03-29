@@ -33,7 +33,7 @@ public class Fraccion {
   public Fraccion multiplica(int n) {
     return new Fraccion(this.signo * this.numerador * n, this.denominador);
   }
-
+  // f es la otra fraccion objeto
   public Fraccion multiplica(Fraccion f) {
     return new Fraccion(this.signo * this.numerador * f.getNumerador(), this.denominador * f.getDenominador());
   }
