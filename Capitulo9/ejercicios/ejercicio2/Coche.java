@@ -1,13 +1,9 @@
 public class Coche extends Vehiculo {
     // atributo de clase
-   
-         
     private String sillin;    
     private int cilindrada;
     private String modelo;
     private int kilometraje;
-   
-   
    
     // método de clase
     public static int getKilometrajeTotal() {

@@ -28,9 +28,9 @@ public class Tiempo {
         void sumatiempo(Tiempo otrotiempo) {
           
           
-            System.out.println(otrotiempo.getdevueltasegundos());
-             System.out.println(this.getdevueltasegundos());//hace referencia al objeto actual
-              System.out.println(otrotiempo.getdevueltasegundos()+ this.getdevueltasegundos());
+          //  System.out.println(otrotiempo.getdevueltasegundos());
+          //   System.out.println(this.getdevueltasegundos());//hace referencia al objeto actual
+          //    System.out.println(otrotiempo.getdevueltasegundos()+ this.getdevueltasegundos());
               int sumasegundos = otrotiempo.getdevueltasegundos()+ this.getdevueltasegundos();
               int hora = sumasegundos /3600;
               int minuto = ((sumasegundos)-(hora * 3600))/60 ;
@@ -44,9 +44,9 @@ public class Tiempo {
       void restatiempo(Tiempo otrotiempo) {
           
           
-            System.out.println(otrotiempo.getdevueltasegundos());
-             System.out.println(this.getdevueltasegundos());//hace referencia al objeto actual
-              System.out.println(otrotiempo.getdevueltasegundos()+ this.getdevueltasegundos());
+          //  System.out.println(otrotiempo.getdevueltasegundos());
+         //    System.out.println(this.getdevueltasegundos());//hace referencia al objeto actual
+        //      System.out.println(otrotiempo.getdevueltasegundos()+ this.getdevueltasegundos());
               int restasegundos = otrotiempo.getdevueltasegundos()- this.getdevueltasegundos();
               int hora = restasegundos /3600;
               int minuto = ((restasegundos)-(hora * 3600))/60 ;

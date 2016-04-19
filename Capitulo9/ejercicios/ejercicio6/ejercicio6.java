@@ -10,12 +10,12 @@ public class ejercicio6{
   public static void main(String[] args) {
     
     
-    Tiempo t = new Tiempo(10, 40, 40);
-    Tiempo t2 = new Tiempo(5, 50, 20);
+    Tiempo t = new Tiempo(10, 50, 40);
+    Tiempo t2 = new Tiempo(5, 40, 20);
      System.out.println(t);
       System.out.println(t2);
-    System.out.println("tiempo: " + t.getdevueltasegundos());
-    System.out.println("tiempo: " + t2.getdevueltasegundos());
+  //  System.out.println("tiempo: " + t.getdevueltasegundos());
+  //  System.out.println("tiempo: " + t2.getdevueltasegundos());
      t.sumatiempo(t2);
      t2.restatiempo(t);
   }
