@@ -38,9 +38,9 @@ public class ejercicio6 {
           System.out.println("Los datos no son correctos");
           intentos++;
         }
-    }while((intentos<3) && (acceso==false));
+    }while((intentos<3) && (!acceso));
     
-     if(acceso==false){ 
+     if(!acceso){ 
         System.out.println("Lo siento, no tiene acceso al área restringida");
       }else{
          System.out.println("Ha accedido al área restringida");
