@@ -1,7 +1,11 @@
 /**
  * PruebaGatoSimple.java
  * Programa que prueba la clase GatoSimple
+<<<<<<< HEAD
  * @author Luis José Sánchez
+=======
+ * @author SarcasticBoy
+>>>>>>> 906b029ae19eac54d1fbaaeb3c8b8b81be505b8d
  */
 
 public class PruebaGatoSimple {
